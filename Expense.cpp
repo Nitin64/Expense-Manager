@@ -35,7 +35,7 @@ int main()
     printf("\t\t\t *****************************\n\n");
     
     password();
-    char names[]="sonuyadav";//password
+    char names[]="nitinkhandal";//password
     while(1)
     {
              int p=0;             
@@ -163,9 +163,9 @@ void option1()
                     }            
      }
      
-     //r – Opens a file in read mode and sets pointer to the first character in the file. It returns null if file does not exist.
-	//w – Opens a file in write mode. It returns null if file could not be opened. If file exists, data are overwritten.
-	//a – Opens a file in append mode.  It returns null if file couldn’t be opened(here we use append but not write as write overwrites)
+     //r â€“ Opens a file in read mode and sets pointer to the first character in the file. It returns null if file does not exist.
+	//w â€“ Opens a file in write mode. It returns null if file could not be opened. If file exists, data are overwritten.
+	//a â€“ Opens a file in append mode.  It returns null if file couldnâ€™t be opened(here we use append but not write as write overwrites)
      
 	 //RECORD THE SCANNED DATA TOTHE FILE OF RELEVANT MONTH
      if(month==1)
